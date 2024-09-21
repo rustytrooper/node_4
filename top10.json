@@ -1,0 +1,160 @@
+[
+  {
+    "id": 5354394,
+    "name": null,
+    "alternativeName": "Precious Templeton: A Pony Tale",
+    "rating": {
+      "kp": 1
+    },
+    "year": 2021,
+    "votes": {
+      "kp": 7
+    },
+    "poster": {}
+  },
+  {
+    "id": 6264042,
+    "name": "Хутор",
+    "alternativeName": null,
+    "rating": {
+      "kp": 2
+    },
+    "year": null,
+    "votes": {
+      "kp": 0
+    },
+    "poster": {}
+  },
+  {
+    "id": 379706,
+    "name": "Ниниш",
+    "alternativeName": "Niniche",
+    "rating": {
+      "kp": 3
+    },
+    "year": 1925,
+    "votes": {
+      "kp": 1
+    },
+    "poster": {
+      "url": "https://image.openmoviedb.com/kinopoisk-images/10900341/41ff4ee2-527a-4069-9473-575eb8bb590d/orig"
+    }
+  },
+  {
+    "id": 6267717,
+    "name": "Наша Russia. 8 марта",
+    "alternativeName": null,
+    "rating": {
+      "kp": 4
+    },
+    "year": null,
+    "votes": {
+      "kp": 0
+    },
+    "poster": {}
+  },
+  {
+    "id": 12,
+    "name": " добавлено",
+    "alternativeName": "добавлено",
+    "rating": {
+      "kp": 4
+    },
+    "year": 2021,
+    "votes": {
+      "kp": 7
+    },
+    "poster": {}
+  },
+  {
+    "id": 6265949,
+    "name": null,
+    "alternativeName": "The Great Dying",
+    "rating": {
+      "kp": 5
+    },
+    "year": 2010,
+    "votes": {
+      "kp": 0
+    },
+    "poster": {}
+  },
+  {
+    "id": 6266584,
+    "name": null,
+    "alternativeName": "Zombie",
+    "rating": {
+      "kp": 6
+    },
+    "year": 2016,
+    "votes": {
+      "kp": 0
+    },
+    "poster": {}
+  },
+  {
+    "id": 13,
+    "name": "демонстрации ради",
+    "alternativeName": "альтернативное название",
+    "rating": {
+      "kp": 6
+    },
+    "year": 1999,
+    "votes": {
+      "kp": 4
+    },
+    "poster": {}
+  },
+  {
+    "id": 6260539,
+    "name": null,
+    "alternativeName": "Debbe Dunning's Dude Ranch Roundup",
+    "rating": {
+      "kp": 7
+    },
+    "year": 2017,
+    "votes": {
+      "kp": 1
+    },
+    "poster": {}
+  },
+  {
+    "id": 6264400,
+    "name": "Государственная граница. Фильм 11. Смертельный улов",
+    "alternativeName": null,
+    "rating": {
+      "kp": 8
+    },
+    "year": 2014,
+    "votes": {
+      "kp": 2
+    },
+    "poster": {}
+  },
+  {
+    "id": 6264396,
+    "name": "Государственная граница. Фильм 10. Афганский капкан",
+    "alternativeName": null,
+    "rating": {
+      "kp": 9
+    },
+    "year": 2014,
+    "votes": {
+      "kp": 2
+    },
+    "poster": {}
+  },
+  {
+    "id": 6260540,
+    "name": null,
+    "alternativeName": "Family Feud",
+    "rating": {
+      "kp": 10
+    },
+    "year": 1999,
+    "votes": {
+      "kp": 1
+    },
+    "poster": {}
+  }
+]
