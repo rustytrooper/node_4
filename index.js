@@ -5,8 +5,11 @@ const { updateFilm } = require('./requests/updateFilm.js')
 const { deleteFilm } = require('./requests/deleteFilm.js')
 const { readAll } = require('./requests/readAll.js')
 const { read } = require('./requests/read.js')
+const { routerAuth } = require('./routesAuth.js')
 
 const app = express();
+
+app.use('/api/auth', routerAuth)
 
 
 app.get('/', function (req, res) {
