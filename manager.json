@@ -1,8 +1,42 @@
 [
   {
     "id": "user",
-    "email": "user@mail.com",
+    "mail": "user@mail.com",
     "password": "user",
+    "super": false
+  },
+  {
+    "id": 2,
+    "Email": "user2",
+    "password": "user2"
+  },
+  {
+    "id": 3,
+    "Email": "user3",
+    "password": "user3"
+  },
+  {
+    "id": 4,
+    "Email": "user4",
+    "password": "user4",
+    "super": false
+  },
+  {
+    "id": 5,
+    "Email": "user5",
+    "password": "user5",
+    "super": false
+  },
+  {
+    "id": 6,
+    "Email": "user6",
+    "password": "user6",
+    "super": false
+  },
+  {
+    "id": 7,
+    "Email": "user",
+    "password": "$2a$07$d/hV8lR4qeNdM.3r66qmwOa/hHhRrAQG5KP8NnesZRPjA/1VK.sbu",
     "super": false
   }
 ]
