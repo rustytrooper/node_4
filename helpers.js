@@ -33,8 +33,27 @@ function parseURL(url) {
   }
 }
 
+function parseBodyAuth(req, res, cb) {
+  const body = [];
+  req.on('data', (chunk) => {
+    body.push(chunk)
+  }).on('end', () => {
+    const data = Buffer.concat(body).toString();
+    if (data) {
+      const params = JSON.parse(data)
+      const email = params.email;
+      const pswrd = params.password;
+      cb(null, req, res, email, pswrd)
+    } else {
+      res.status(400).send('Недостаточно данных для обработки')
+    }
+
+  })
+}
+
 
 module.exports = {
   parseBody,
-  parseURL
+  parseURL,
+  parseBodyAuth
 }

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "user",
+    "email": "user@mail.com",
+    "password": "user",
+    "super": false
+  }
+]
