@@ -1,9 +1,10 @@
 const fs = require('fs')
 const { parseURL } = require('../helpers.js')
 
-
 function updateFilm(err, req, res, params) {
   const { url, parameters } = parseURL(req.url);
+  const fs = require('fs');
+
   const readStream = fs.createReadStream('top10.json', 'utf-8');
   let data = '';
 
@@ -41,15 +42,16 @@ function updateFilm(err, req, res, params) {
       writeStream.write(newObjJson);
 
       writeStream.end();
-      res.send(updatedFilms)
+      res.send(updatedFilms);
     } catch (err) {
       console.error('Ошибка при обработке данных:', err);
+      res.status(500).send('Внутренняя ошибка сервера');
     }
   });
 }
 
-
-
 module.exports = {
   updateFilm
-}
+};
+
+
