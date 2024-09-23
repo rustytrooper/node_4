@@ -1,12 +1,13 @@
 const fs = require('fs')
 const bcryptjs = require('bcryptjs')
-const { validationResult } = require('express-validator')
 
 function register(err, req, res, Email, password) {
   try {
-    const errors = validationResult(Email, password)
-    if (!errors.isEmpty()) {
-      return res.status(400).send("Недостаточно данных для регистрации")
+    if (!Email) {
+      res.status(400).send('Введите почту пользователя')
+    }
+    if (!password) {
+      res.status(400).send('Введите пароль пользователя')
     }
     const readStream = fs.createReadStream('manager.json', 'utf-8')
     const userToFind = {

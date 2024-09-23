@@ -1,3 +1,6 @@
+const jwt = require('jsonwebtoken')
+const { secret } = require('./config')
+
 function parseBody(req, res, cb) {
   const body = [];
   req.on('data', (chunk) => {
@@ -57,9 +60,19 @@ function parseBodyAuth(req, res, cb) {
   });
 }
 
+function generateAccessToken(id, roles) {
+  const payload = {
+    id,
+    roles
+  }
+
+  return jwt.sign(payload, secret, { expiresIn: "5min" })
+}
+
 
 module.exports = {
   parseBody,
   parseURL,
-  parseBodyAuth
+  parseBodyAuth,
+  generateAccessToken
 }

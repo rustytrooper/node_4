@@ -8,12 +8,14 @@
   {
     "id": 2,
     "Email": "user2",
-    "password": "user2"
+    "password": "user2",
+    "super": false
   },
   {
     "id": 3,
     "Email": "user3",
-    "password": "user3"
+    "password": "user3",
+    "super": false
   },
   {
     "id": 4,
@@ -35,8 +37,20 @@
   },
   {
     "id": 7,
-    "Email": "user",
-    "password": "$2a$07$d/hV8lR4qeNdM.3r66qmwOa/hHhRrAQG5KP8NnesZRPjA/1VK.sbu",
+    "Email": "user7",
+    "password": "$2a$07$CFo7t7QJdwGjrfPOmHCuQ./Fo.2dll5aUHnW3ojIa2Lu27ZY29V.6",
     "super": false
+  },
+  {
+    "id": 8,
+    "Email": "user8",
+    "password": "$2a$07$S6vl/BnJKG4gKMAuFoYSO.BU9orgYE7URw4QI6Ik/qtHSsKIJGEca",
+    "super": false
+  },
+  {
+    "id": 9,
+    "Email": "admin",
+    "password": "$2a$07$N7wGJbyYj6Z3pXg0Kz5fj.RrtALkz8VAJU.0mJiFSftXLpA1QDGLi",
+    "super": true
   }
 ]
